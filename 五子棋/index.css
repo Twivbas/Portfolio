@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+h2 {
+  margin: 10px;
+}
+
+.result {
+  height: 40px;
+  margin: 0 auto;
+  color: red;
+}
+
+.chess {
+  margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 5px 4px 4px #b9b9b9, -2px -2px 2px #eee;
+}
+
+.restart {
+  border: none;
+  background-color: skyblue;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.options {
+  width: 150px;
+  height: 180px;
+  background-color: tomato;
+  border-radius: 10px;
+  padding-top: 20px;
+  position: absolute;
+  top: calc(35vh - 90px);
+  left: calc(50vw - 75px);
+}
+
+.options button {
+  width: 75px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+.disappear {
+  display: none;
+}
+
+.show {
+  display: block;
+  margin: 10px auto;
+}
